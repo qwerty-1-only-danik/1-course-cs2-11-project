@@ -1,0 +1,52 @@
+/* ==================== Мобильная адаптация (до 768px) ==================== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #home {
+        padding: 60px 5% 80px;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    #about, #suppliers {
+        flex-direction: column;
+        padding: 50px 5%;
+    }
+
+    .about-left, .about-stats, .suppliers-info, #suppliers img {
+        width: 100%;
+    }
+
+    .suppliers-info {
+        padding: 0 0 30px 0;
+    }
+
+    .catalog-grid article, .news-grid article, .form-grid input {
+        width: 100%;
+    }
+
+    .partner-box {
+        width: 47%;
+    }
+
+    .news-grid, .footer-contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-card {
+        padding: 30px 20px;
+    }
+}
